@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 })
 app.use('/', userRoute) 
 
-cron.schedule('* * * * *', () => {
+cron.schedule('59 23 * * *', () => {
     weather.getWeatherData()
 })
 
