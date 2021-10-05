@@ -4,7 +4,7 @@ const Users = require('../models/userModel')
 
 exports.home = (req, res) => {
     res.json({
-        project: 'Angular Practice App',
+        project: 'Angular Practice',
         author: 'Soumyadeep Ghosh',
         language: 'Nodejs',
         version: '1.0'
